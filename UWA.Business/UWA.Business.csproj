@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UWA.DataAccess\UWA.DataAccess.csproj" />
+    <ProjectReference Include="..\UWA.Entities\UWA.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
