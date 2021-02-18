@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap-table@1.18.0",
+      "destination": "wwwroot/Modules/bootstrap-table/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/Modules/jquery/"
+    },
+    {
+      "library": "popper.js@2.5.4",
+      "destination": "wwwroot/Modules/popper.js/",
+      "files": [
+        "umd/popper.min.js"
+      ]
+    },
+    {
+      "library": "font-awesome@5.15.1",
+      "destination": "wwwroot/Modules/font-awesome/",
+      "files": [
+        "css/all.min.css"
+      ]
+    },
+    {
+      "library": "twitter-bootstrap@4.5.3",
+      "destination": "wwwroot/Modules/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.bundle.js",
+        "js/bootstrap.bundle.js.map",
+        "js/bootstrap.bundle.min.js",
+        "js/bootstrap.bundle.min.js.map",
+        "js/bootstrap.js",
+        "js/bootstrap.js.map",
+        "js/bootstrap.min.js",
+        "js/bootstrap.min.js.map",
+        "css/bootstrap-grid.css",
+        "css/bootstrap-grid.css.map",
+        "css/bootstrap-grid.min.css",
+        "css/bootstrap-grid.min.css.map",
+        "css/bootstrap-reboot.css",
+        "css/bootstrap-reboot.css.map",
+        "css/bootstrap-reboot.min.css",
+        "css/bootstrap-reboot.min.css.map",
+        "css/bootstrap.css",
+        "css/bootstrap.css.map",
+        "css/bootstrap.min.css",
+        "css/bootstrap.min.css.map"
+      ]
+    },
+    {
+      "library": "vue@2.3.4",
+      "destination": "wwwroot/Modules/vue/",
+      "files": [
+        "vue.min.js"
+      ]
+    }
+  ]
+}
